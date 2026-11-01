@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="count">0</p>
+<button onclick="add()">Add</button>
+<button onclick="reduce()">Reduce</button>
+<script>
+let number = 0;
+const display = document.getElementById("count");
+function add() {
+  number++;
+  display.textContent = number;
+}
+function reduce() {
+  number--;
+  display.textContent = number;
+}
+</script>
+</body>
+</html>
